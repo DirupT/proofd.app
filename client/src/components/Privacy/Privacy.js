@@ -10,6 +10,7 @@ import ReactGA from 'react-ga';
 
 const Privacy = () => {
   ReactGA.pageview('/privacy');
+
   return (
     <PrivacyContainer>
       <Header>Privacy Policy</Header>
@@ -120,7 +121,7 @@ const Privacy = () => {
       <Paragraph>
         If you are located outside United States and choose to provide
         information to us, please note that we transfer the data, including
-        Personal Data, to United States and process it there.s
+        Personal Data, to United States and process it there.
       </Paragraph>
       <Paragraph>
         Your consent to this Privacy Policy followed by your submission of such
@@ -242,10 +243,7 @@ const Privacy = () => {
       </Paragraph>
       <Paragraph>
         <li>
-          By email:{' '}
-          <a href="mailto:support@proofd.app">
-            support@proofd.app
-          </a>
+          By email: <a href="mailto:support@proofd.app">support@proofd.app</a>
         </li>
       </Paragraph>
       <Paragraph />
