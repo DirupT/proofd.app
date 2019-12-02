@@ -23,8 +23,8 @@ import {
   ImageCropper,
   ProfilePic,
   ProfilePicWrapper,
-  TwitterAlert,
-  TwitterText,
+  // TwitterAlert,
+  // TwitterText,
 } from './styles/NavStyles.js';
 import { Dropdown, DropdownItem, Button } from 'reactstrap';
 import Logo from '../../assets/Proofd_3.png';

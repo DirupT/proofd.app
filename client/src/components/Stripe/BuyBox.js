@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { BoxContainer, H3, Copy } from './styles/BuyBoxStyles.js';
+import { BoxContainer, H3, Copy } from './styles/BuyBoxStyles';
 import { CheckoutCredit } from './Checkout.js';
 
 const BuyBox = props => {

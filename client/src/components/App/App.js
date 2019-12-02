@@ -1,23 +1,23 @@
 import React, { Fragment, useEffect } from 'react';
 import './App.css';
-import Home from './Home/Home.js';
+import Home from '../Home/Home.js';
 import axios from 'axios';
 import { useSelector, useDispatch } from 'react-redux';
-import { getUserInfo } from '../actions/user';
+import { getUserInfo } from '../../actions/user';
 import { BeatLoader } from 'react-spinners';
 import { Switch, Route, useLocation } from 'react-router-dom';
-import { HomeContainer } from './Home/HomeStyles.js';
+import { HomeContainer } from '../Home/HomeStyles.js';
 import styled from 'styled-components';
-import OurTeam from './OurTeam/OurTeam';
-import Terms from './Terms/Terms.js';
-import Privacy from './Privacy/Privacy.js';
-import DashboardNav from './Nav/DashboardNav.js';
-import Documents from './Documents/Documents.js';
-import Settings from './Settings/Settings.js';
-import Billing from './Billing/Billing.js';
-import Buy from './Stripe/Buy.js';
-import Footer from './Footer/Footer.js';
-import TopNavBar from './Nav/NavBar.js';
+import OurTeam from '../OurTeam/OurTeam';
+import Terms from '../Terms/Terms.js';
+import Privacy from '../Privacy/Privacy.js';
+import DashboardNav from '../Nav/DashboardNav.js';
+import Documents from '../Documents/Documents.js';
+import Settings from '../Settings/Settings.js';
+import Billing from '../Billing/Billing.js';
+import Buy from '../Stripe/Buy.js';
+import Footer from '../Footer/Footer.js';
+import TopNavBar from '../Nav/NavBar.js';
 
 axios.defaults.withCredentials = true;
 

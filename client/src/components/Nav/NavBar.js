@@ -7,8 +7,8 @@ import {
   TopNavBar,
   Links,
   Img,
-  TwitterAlert,
-  TwitterText,
+  // TwitterAlert,
+  // TwitterText,
 } from './styles/NavStyles.js';
 import Logo from '../../assets/Proofd_3.png';
 
